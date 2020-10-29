@@ -8,4 +8,4 @@ The template connects to more than 30 DMVs and Azure Monitor metrics. The templa
 Here are some of the visualization that can be created. 
 
 
-![DMVs](https://github.com/anildwarepo/azuresynapsedmvs/raw/main/imgs/DMV relationship.png)
+![DMVs](https://github.com/anildwarepo/azuresynapsedmvs/raw/main/imgs/DMV%20relationship.png)
