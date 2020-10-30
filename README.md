@@ -5,7 +5,7 @@ This repo provides Power BI Desktop template that can be used to visualize Azure
 The template uses direct query mode to connect to DMVs so that the visualization is up to date. 
 Template uses Azure Monitor REST API to retrive metrics specific to Synapse SQL Pools. 
 
-Template uses Azure Active Directory Authenitcation to connect and simplifies authentication. 
+Template uses Azure Active Directory Authentication to connect and simplifies authentication. 
 
 The template connects to more than 30 DMVs and Azure Monitor metrics. The template provides some baseline visuals which can be extended further. 
 
