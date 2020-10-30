@@ -31,7 +31,7 @@ Provide inputs to the parameters
 - resourceGroup - Resource Group where Synapse workspace is provisioned
 - synapseWorkspaceName - Synapse workspace name
 - sqlPoolName - Synapse SQLPool Name
-- synapseEndPoint - <sqlPoolName>.sql.azuresynapse.net
+- synapseEndPoint - [sqlPoolName].sql.azuresynapse.net
 
 <img src="https://github.com/anildwarepo/azuresynapsedmvs/raw/main/imgs/TemplateParameters.png" width="500">
 
@@ -43,7 +43,7 @@ Power BI Desktop will prompt to validate query. Click Validate and grant permiss
 
 ### Visualize DMVs
 
-That's it!!. You can now add visuals and start visualizing DMVs.
+That's it!! You can now add visuals and start visualizing DMVs.
 
 ### DMV Visualization samples
 
