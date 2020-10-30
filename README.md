@@ -8,6 +8,35 @@ The template connects to more than 30 DMVs and Azure Monitor metrics. The templa
 <img src="https://github.com/anildwarepo/azuresynapsedmvs/raw/main/imgs/DMV%20relationship.png" width="500">
 
 
+## Getting Started
+
+### Pre-requisites
+- Access to Azure Synapse Workspace
+- Access to Azure Monitor Metrics
+- Power BI Desktop installed from local computer which has network connectivity to Azure Synapse SqlPool(incase of Private Link)
+
+### Launch Template 
+
+Download Synapse-DMVs.pbit Power BI Desktop template and launch it with Power BI Desktop. 
+Provide inputs to the parameters
+- subscriptionId - Azure Subscription where Synapse Workspace is provisioned
+- resourceGroup - Resource Group where Synapse workspace is provisioned
+- synapseWorkspaceName - Synapse workspace name
+- sqlPoolName - Synapse SQLPool Name
+- synapseEndPoint - <sqlPoolName>.sql.azuresynapse.net
+
+<img src="https://github.com/anildwarepo/azuresynapsedmvs/raw/main/imgs/TemplateParameters.png" width="500">
+
+### Validate Query
+
+Power BI Desktop will prompt to validate query. Click Validate and grant permissions to execute query. 
+
+<img src="https://github.com/anildwarepo/azuresynapsedmvs/raw/main/imgs/ValidateQuery.png" width="300">
+
+### Visualize DMVs
+
+That's it!!. You can now add visuals and start visualizing DMVs.
+
 ### DMV Visualization samples
 
 #### Nodes
@@ -21,25 +50,3 @@ The template connects to more than 30 DMVs and Azure Monitor metrics. The templa
 #### Table Distribution
 
 <img src="https://github.com/anildwarepo/azuresynapsedmvs/raw/main/imgs/Table%20Distribution.png" width="500">
-
-
-### Getting Started
-
-#### Pre-requisites
-
-- Access to Azure Synapse Workspace
-- Access to Azure Monitor Metrics
-- Power BI Desktop installed from local computer which has network connectivity to Azure Synapse SqlPool(incase of Private Link)
-
-#### 
-
-Download Synapse-DMVs.pbit Power BI Desktop template and launch it with Power BI Desktop. 
-Provide inputs to the parameters
-- subscriptionId - Azure Subscription where Synapse Workspace is provisioned
-- resourceGroup - Resource Group where Synapse workspace is provisioned
-- synapseWorkspaceName - Synapse workspace name
-- sqlPoolName - Synapse SQLPool Name
-- synapseEndPoint - <sqlPoolName>.sql.azuresynapse.net
-
-<img src="https://github.com/anildwarepo/azuresynapsedmvs/raw/main/imgs/TemplateParamaters.png" width="500">
-
