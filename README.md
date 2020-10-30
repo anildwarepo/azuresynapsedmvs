@@ -2,10 +2,16 @@
 
 This repo provides Power BI Desktop template that can be used to visualize Azure Synapse DMVs. DMVs provide more insights into the internals of Azure Synapse Pools. This helps to better understand the performance problems, tune distribution and understand overall performance of the database. 
 
+The template uses direct query mode to connect to DMVs so that the visualization is up to date. 
+Template uses Azure Monitor REST API to retrive metrics specific to Synapse SQL Pools. 
+
+Template uses Azure Active Directory Authenitcation to connect and simplifies authentication. 
+
 The template connects to more than 30 DMVs and Azure Monitor metrics. The template provides some baseline visuals which can be extended further. 
 
 
 <img src="https://github.com/anildwarepo/azuresynapsedmvs/raw/main/imgs/DMV%20relationship.png" width="500">
+
 
 
 ## Getting Started
@@ -13,7 +19,9 @@ The template connects to more than 30 DMVs and Azure Monitor metrics. The templa
 ### Pre-requisites
 - Access to Azure Synapse Workspace
 - Access to Azure Monitor Metrics
-- Power BI Desktop installed from local computer which has network connectivity to Azure Synapse SqlPool(incase of Private Link)
+- Power BI Desktop installed on local computer which has network connectivity to Azure Synapse SqlPool(incase of Private Link)
+- Sign in to Power BI Desktop using Azure Active Directory that can access Azure Synapse and Azure Monitor. 
+
 
 ### Launch Template 
 
