@@ -1,4 +1,4 @@
-# Power BI Visualization for Azure Synapse SQL Pool Database Management Views
+# Power BI Visualization for Azure Synapse SQL Pool Dynamic Management Views
 
 This repo provides Power BI Desktop template that can be used to visualize Azure Synapse DMVs. DMVs provide more insights into the internals of Azure Synapse Pools. This helps to better understand the performance problems, tune distribution and understand overall performance of the database. 
 
